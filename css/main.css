@@ -14,6 +14,9 @@ header, footer {
     text-align: center;    
 }
 
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
 img {
     float: right;
     margin: 10px;
@@ -21,6 +24,7 @@ img {
 }
 
 h2 {
+    font-family: 'Poppins', sans-serif;
     display: block;
     height: 20px;
     width: 600px;
