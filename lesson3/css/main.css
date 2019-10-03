@@ -13,7 +13,7 @@ body, header, nav, main, footer {
 
 /* Small View */
 header, footer {
-	background-color: #bed;
+	background-color: #4287f5;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -39,8 +39,8 @@ nav li a {
 }
 
 nav a:hover {
-	background-color: #bbb;
-	color: #36454f;
+	background-color: #e3eeff;
+	color: #727273;
 }
 
 main {
