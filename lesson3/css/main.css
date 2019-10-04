@@ -13,7 +13,7 @@ body, header, nav, main, footer {
 
 /* Small View */
 header, footer {
-	background-color: #4287f5;
+	background-color: #3E6990;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -22,7 +22,7 @@ header, footer {
 }
 
 nav {
-    background-color: black;
+    background-color: #2E2C2F;
     text-align: center;
 }
 nav ul {
@@ -39,8 +39,8 @@ nav li a {
 }
 
 nav a:hover {
-	background-color: #e3eeff;
-	color: #727273;
+	background-color: #D6F49D;
+	color: #605F5E;
 }
 
 main {
