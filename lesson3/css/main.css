@@ -9,6 +9,7 @@ body {
 
 body, header, nav, main, footer {
     max-width: 1000px;
+    align-content: center;
 }
 
 /* Small View */
