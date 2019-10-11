@@ -30,3 +30,11 @@ h2 {
     border-bottom: 3px solid #000000;
     padding: 20px;
 }
+
+main ul li {
+    font-size: 14pt;
+}
+main ul li a {
+    color: navy;
+    font-size: 12pt;
+}
