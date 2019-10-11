@@ -60,22 +60,30 @@ nav li a {
 	padding: 10px;
 }
 
-.navigtion li:first-child {
-    display: block;
-}
-
-.navigation li {
-    display: none;
-}
-
-.responsive li {
-    display: block;
-}
-
 nav a:hover {
 	background-color: #D6F49D;
 	color: #605F5E;
 }
+
+nav li a.active { 
+    color: #EAD637;
+}
+
+/* Make the menu toggle on and off*/
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+	display: block;
+}
+
+/*End of CSS for menu*/
 
 main div {
     text-align: left;
