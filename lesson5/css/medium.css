@@ -24,13 +24,15 @@
     }
 
     .forecast {
+        display:block;
+    }
+
+    main div img.farm {
         display: block;
-        border: dashed black 1px;
-        background-color: #D6F49D;
-        padding: 5px;
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
         width: 55%;
+        height: 150px;
     }
 }

@@ -34,7 +34,7 @@ header img {
     margin: 0 0 0 21px;  
 }
 
-nav, main, footer {
+main, footer {
     text-align: center;
     max-width: 1000px;
     margin: auto;
@@ -48,8 +48,10 @@ nav {
 
 nav ul {
     list-style: none;
-    margin: 0px;
+    max-width: 1000px;
+    margin: auto;
     padding: 0;
+    justify-content: center;
 } 
 
 nav li a {
