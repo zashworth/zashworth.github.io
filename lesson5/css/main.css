@@ -120,7 +120,7 @@ footer p {
 }
 
 .article, .contact {
-    display: block;
+    display: flex;
     border: dashed black 1px;
     background-color: #D6F49D;
     padding: 5px;
@@ -130,3 +130,12 @@ footer p {
     width: 80%;
 }
 
+main div img.picnic {
+    width: 40%;
+    height: 40%;
+}
+
+main div img.preston {
+    width: 40%;
+    height: 40%;
+}
