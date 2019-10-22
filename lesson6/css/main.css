@@ -1,0 +1,141 @@
+/* Small  View and normal design */
+header {
+    background-color: #3E6990;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+div, p, nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img {
+    width: 80px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 20pt;
+	margin: 0 0 0 17px;
+}
+
+.motto {
+    font-size: 14pt;
+    margin: 0 0 0 21px;  
+}
+
+main, footer {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: #2E2C2F;
+}
+
+nav ul {
+    list-style: none;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+} 
+
+nav li a {
+    display: block;
+	color: #fff;
+    text-align: center;
+    text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #D6F49D;
+	color: #605F5E;
+}
+
+nav li a.active { 
+    color: #EAD637;
+}
+
+/* Make the menu toggle on and off*/
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+	display: block;
+}
+
+/*End of CSS for menu*/
+
+#banner {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+
+main div {
+    text-align: left;
+    justify-content: center;
+}
+
+main div img.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+footer {
+    background-color: #2E2C2F;
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+.forecast {
+    display: none;
+}
+
+.article, .contact {
+    display: flex;
+    border: dashed black 1px;
+    background-color: #D6F49D;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+main div img.picnic {
+    width: 40%;
+    height: 40%;
+}
+
+main div img.preston {
+    width: 40%;
+    height: 40%;
+}

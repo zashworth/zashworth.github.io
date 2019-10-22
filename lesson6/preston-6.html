@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Page</title>
+    <meta name="description" content="Preston town page shows weather for Preston, Idaho">
+    <link rel="shortcut icon" href="weatherfav.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="banner"></div>
+    <header>
+        <img src="images/weather-logo.png" alt="Weather logo, rain cloud with sun behind">
+        <section class="headings">
+            <h1>Your Exact Weather</h1>
+            <div class="motto">Our weather is exact!</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <script src="js/togglemenu.js"></script>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="hero">
+            <img src="images/prestonheroimage.jpg" alt="Red barn on green grass with plowed field behind" class="hero">
+        </div>
+        <div class="forecast">
+            <img src="images/weatherforecast.jpg" alt="storm clouds over farm" class="farm">
+        </div>
+        <div class="article">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet 
+                esse dicta sapiente enim cumque repudiandae, culpa, reiciendis quas assumenda, dolor est maxime 
+                necessitatibus ea dolore libero quasi dolores eos! Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Excepturi amet esse dicta sapiente enim cumque repudiandae, culpa, reiciendis 
+                quas assumenda, dolor est maxime necessitatibus ea dolore libero quasi dolores eos! 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet 
+                esse dicta sapiente enim cumque repudiandae, culpa, reiciendis quas assumenda, dolor est maxime 
+                necessitatibus ea dolore libero quasi dolores eos! Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Excepturi amet esse dicta sapiente enim cumque repudiandae, culpa, reiciendis 
+                quas assumenda, dolor est maxime necessitatibus ea dolore libero quasi dolores eos!</p>                
+            <img src="images/picnic.jpg" alt="picnic" class="picnic">
+        </div>
+        <div class="contact">
+            <img src="images/prestonidaho.PNG" alt="map of Preston Idaho" class="preston">
+            <p id="contactinfo">Contact Information</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyYear"></span> Your Exact Weather | Zachary V. Ashworth</p>
+        <p><span id="currentDate"></span></p>
+    </footer>
+    <script src="js/copydate.js"></script>
+    <script src="js/curdate.js"></script>
+    <script src="js/banner.js"></script>
+</body>
+</html>
