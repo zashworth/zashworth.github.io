@@ -9,7 +9,6 @@ header {
 
 h1, h2 {
     font-family: 'Poppins', sans-serif;
-    color: white;
 }
 
 div, p, nav {
@@ -28,6 +27,7 @@ header img {
 .headings h1 {
     font-size: 20pt;
     margin: 0 0 0 17px;
+    color: white;
 }
 
 .motto {
@@ -132,11 +132,9 @@ footer p {
 }
 
 main div img.picnic {
-    width: 40%;
-    height: 40%;
+    float: right;
 }
 
 main div img.preston {
-    width: 40%;
-    height: 40%;
+    float: left;
 }
