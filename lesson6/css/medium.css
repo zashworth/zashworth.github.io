@@ -27,6 +27,15 @@
         display:block;
     }
 
+    .forecast table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 6px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
     main div img.farm {
         display: block;
         margin-top: 20px;

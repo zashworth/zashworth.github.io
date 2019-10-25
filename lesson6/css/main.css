@@ -99,11 +99,27 @@ main div {
     justify-content: center;
 }
 
+main div.hero {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main div img.hero {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
+}
+
+main div.hero section.weathersummary {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: .5rem;
 }
 
 footer {
@@ -120,7 +136,24 @@ footer p {
     display: none;
 }
 
-.article, .contact {
+.article {
+    display: flex;
+    border: dashed black 1px;
+    background-color: #D6F49D;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#typearticle {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 1%;
+}
+
+.contact {
     display: flex;
     border: dashed black 1px;
     background-color: #D6F49D;
@@ -133,8 +166,23 @@ footer p {
 
 main div img.picnic {
     float: right;
+    margin-right: 1rem;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 1rem;
 }
 
 main div img.preston {
     float: left;
+    max-width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact2 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style: none;
 }
