@@ -96,7 +96,6 @@ nav li a.active {
 
 main div {
     text-align: left;
-    justify-content: center;
 }
 
 main div.hero {
@@ -144,13 +143,15 @@ footer p {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    max-width: 80%;
 }
 
-#typearticle {
-    display: block;
-    overflow: hidden;
-    padding-bottom: 1%;
+#picnic {
+    float: right;
+    margin-bottom: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .contact {
@@ -159,30 +160,33 @@ footer p {
     background-color: #D6F49D;
     padding: 5px;
     margin-top: 20px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 }
 
-main div img.picnic {
-    float: right;
-    margin-right: 1rem;
-    margin-left: auto;
-    margin-bottom: auto;
-    margin-top: 1rem;
-}
-
 main div img.preston {
     float: left;
-    max-width: 200px;
+    max-width: 500px;
     margin-right: auto;
     margin-left: auto;
 }
 
-#contact2 {
+#leftcol {
+    display: none;
+    max-width: 50%;
     margin-right: auto;
     margin-left: auto;
     margin-top: auto;
     margin-bottom: auto;
-    list-style: none;
+    text-align: center;
+}
+
+#rightcol {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
 }

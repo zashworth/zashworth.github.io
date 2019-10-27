@@ -34,6 +34,7 @@
         margin-right: auto;
         margin-left: auto;
         margin-top: 20px;
+        align-content: center;
     }
 
     main div img.farm {
@@ -43,5 +44,16 @@
         margin-right: auto;
         width: 55%;
         height: 150px;
+    }
+
+    main div img.preston {
+        float: left;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #leftcol {
+        display: flex;
     }
 }
