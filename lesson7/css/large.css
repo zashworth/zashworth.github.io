@@ -5,4 +5,24 @@
         height: auto;
     }
 
+    main div picture {
+        border: 1px grey solid;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    main div picture:hover {
+        box-shadow: 0 0 10px #333;
+    }
+    
+    main div img {
+        border-radius: 10px 10px 0 0;
+    }
+    
+    main div p {
+        display: block;
+        margin-left: 5px;
+        font-style: italic;
+    }
+
+
 }
