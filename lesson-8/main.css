@@ -1,0 +1,44 @@
+table, tr, td, th {
+    border: solid 1px grey;
+    border-collapse: collapse;
+    padding: 10px;
+    font-family: Ubantu, sans-serif;
+}
+
+th {
+    background-color: #628ca6;
+}
+
+thead, tfoot {
+    background-color: #7fb9c2;
+}
+
+h3 {
+    color: white;
+}
+
+td, tfoot {
+    text-align: center;
+}
+
+tbody {
+    background-color: #e7ffed;
+}
+
+.blackfriday {
+    background-color: #628ca6;
+    color: white;
+}
+
+tfoot {
+    font-size: 12px;
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    box-shadow: 10px 10px 15px #628ca6;
+
+}
