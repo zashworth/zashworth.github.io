@@ -9,10 +9,6 @@ th {
     background-color: #628ca6;
 }
 
-tr:nth-child(even) {
-    background-color: #e7ffed;
-}
-
 thead, tfoot {
     background-color: #7fb9c2;
 }
@@ -25,7 +21,11 @@ td, tfoot {
     text-align: center;
 }
 
-tbody {
+tbody tr {
+    background-color: #e7f0ed;
+}
+
+tbody tr:nth-child(even) {
     background-color: #e7ffed;
 }
 
