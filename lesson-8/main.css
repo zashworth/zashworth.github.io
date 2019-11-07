@@ -1,16 +1,19 @@
 table, tr, td, th {
-    border: solid 1px grey;
+    border: solid 1px lightsteelblue;
     border-collapse: collapse;
     padding: 10px;
-    font-family: Ubantu, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 th {
     background-color: #628ca6;
+    color: white;
 }
 
-thead, tfoot {
+thead {
     background-color: #7fb9c2;
+    color: black;
+    font-size: 26px;
 }
 
 h3 {
@@ -35,6 +38,8 @@ tbody tr:nth-child(even) {
 }
 
 tfoot {
+    background-color: #7fb9c2;
+    color: black;
     font-size: 12px;
 }
 

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preston Town Page</title>
-    <meta name="description" content="Preston town page shows weather for Preston, Idaho">
+    <title>Storm Center Page</title>
+    <meta name="description" content="submit your storm info to stay up to date">
     <link rel="shortcut icon" href="weatherfav.ico">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
@@ -37,7 +37,52 @@
     <script src="js/togglemenu.js"></script>
     <main>
         <h2>Storm Center</h2>
-        
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">Full Name* <input type="text" name="fname" minlength="5" pattern="" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone Number<input type="tel" name="phone" placeholder="2087776655" required></label>
+                <label class="top">Zip Code <input type="number" name="zip" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Course Information</legend>
+                <div>Audience</div>
+                <label class="sbs"><input type="radio" name="audience" value="beginner">Beginner</label>
+                <label class="sbs"><input type="radio" name="audience" value="intermediate">Intermediate</label>
+                <label class="sbs"><input type="radio" name="audience" value="advanced">Advanced</label>
+
+                <div>Software Needed</div>
+                <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
+                <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
+                <label class="sbs"><input type="checkbox" name="processor" value="yes"> Preprocessor</label>
+                <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Funding</legend>
+                <label class="top">Anticipated Completion Date <input type="date" name="completedDate"></label>
+                <label class="top">Course Subject 
+                    <select name="subject">
+                        <option value="">Please Select &#9662</option>
+                        <option value="software">Software Developement</option>
+                        <option value="ceative">Creative Professional</option>
+                        <option value="info">Information Technology</option>
+                        <option value="data">Data Professional</option>
+                        <option value="construction">Construction</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="business">Business Professional</option>
+                        <option value="security">Cyber Security</option>
+                    </select>
+                </label>
+
+                <label class="top">How Many Authors <input type="number" name="authors"></label>
+            </fieldset>
+
+            <input type="submit" value="Propose My Course" class="submitbtn">
+        </form>
+
     </main>
 
     <footer>
