@@ -103,6 +103,11 @@ main {
 main div.storm {
     text-align: center;
 }
+
+main div.thanks {
+    padding-top: 30px;
+    padding-bottom: 30%;
+}
 /*--------------- FORM ---------------*/
 
 footer {
