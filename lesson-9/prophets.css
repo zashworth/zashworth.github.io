@@ -1,0 +1,26 @@
+header {
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fill, 302px);
+    transition: all is;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    text-align: center;
+    border: 1px black solid;
+    background-color: cornflowerblue;
+    padding: .5rem;
+}
+
+
+main img {
+    margin: auto;
+    max-width: 70%;
+}
