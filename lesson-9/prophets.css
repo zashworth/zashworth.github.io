@@ -1,5 +1,6 @@
 header {
     text-align: center;
+    color: rgb(87, 5, 163);
 }
 
 main div {
@@ -15,12 +16,18 @@ main div {
 section {
     text-align: center;
     border: 1px black solid;
-    background-color: cornflowerblue;
+    background-color: rgb(143, 175, 235);
     padding: .5rem;
 }
 
+section h2 {
+    color: rgb(87, 5, 163);
+}
 
 main img {
     margin: auto;
     max-width: 70%;
+    box-shadow: 0 0 15px black;
 }
+
+rgb(67, 67, 185)
