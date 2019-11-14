@@ -2,15 +2,22 @@ header {
     text-align: center;
     color: rgb(87, 5, 163);
 }
+main {
+    display: block;
+    margin: auto;
+}
 
 main div {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(auto-fill, 302px);
+    grid-template-columns: repeat(auto-fill, 300px);
     transition: all is;
     align-content: center;
     justify-content: center;
     padding: 20px;
+    background-color: #dddddd;
+    box-shadow: 0 0 20px black;
+    margin: auto;
 }
 
 section {
@@ -24,10 +31,16 @@ section h2 {
     color: rgb(87, 5, 163);
 }
 
+section p {
+    line-height: .5rem;
+}
+
 main img {
     margin: auto;
     max-width: 70%;
     box-shadow: 0 0 15px black;
 }
 
-rgb(67, 67, 185)
+footer {
+    text-align: center;
+}
