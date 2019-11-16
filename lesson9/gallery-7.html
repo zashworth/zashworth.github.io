@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preston Town Page</title>
+    <meta name="description" content="Preston town page shows weather for Preston, Idaho">
+    <link rel="shortcut icon" href="weatherfav.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="banner"></div>
+    <header>
+        <img src="images/weather-logo.png" alt="Weather logo, rain cloud with sun behind">
+        <section class="headings">
+            <h1>Your Exact Weather</h1>
+            <div class="motto">Our weather is exact!</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a class="active" href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <script src="js/togglemenu.js"></script>
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="picdiv">
+            <picture>
+                <img src="images/placeholderimg.jpg" data-src="images/cloudy.jpg" alt="cloudy skies over a mountain">
+                <p>Clouds Over The Mounatains And Ocean</p>
+            </picture>
+            <picture>
+                <img src="images/placeholderimg.jpg" data-src="images/lightning.jpg" alt="lightning striking a city">
+                <p>Lightning Striking A City</p>
+            </picture>
+            <picture>
+                <img src="images/placeholderimg.jpg" data-src="images/rain.jpg"  alt="rain falling in the mountains">
+                <p>Rain Falling In The Mountains</p>
+            </picture>
+            <picture>
+               <img src="images/placeholderimg.jpg" data-src="images/snow.jpg" alt="snowing in the mountains">
+               <p>Snowing In The Mountains</p>
+            </picture>
+            <picture>
+                <img src="images/placeholderimg.jpg" data-src="images/sunny.jpg" alt="sun shinning on a field">
+                <p>Sun Shinning On A Green Field</p>
+            </picture>    
+            <picture>
+                <img src="images/placeholderimg.jpg" data-src="images/wind.jpg" alt="wind blowing a tree">
+                <p>Wind Blowing Hard On A Tree</p>
+            </picture>
+        </div>
+    </main>
+
+    <footer>
+            <p>&copy; <span id="copyYear"></span> Your Exact Weather | Zachary V. Ashworth</p>
+            <p><span id="currentDate"></span></p>
+        </footer>
+        <script src="js/copydate.js"></script>
+        <script src="js/curdate.js"></script>
+        <script src="js/banner.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+    </html>
