@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center Page</title>
+    <meta name="description" content="submit your storm info to stay up to date">
+    <link rel="shortcut icon" href="weatherfav.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="banner"></div>
+    <header>
+        <img src="images/weather-logo.png" alt="Weather logo, rain cloud with sun behind">
+        <section class="headings">
+            <h1>Your Exact Weather</h1>
+            <div class="motto">Our weather is exact!</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <script src="js/togglemenu.js"></script>
+    <main>
+        <div class="thanks">Thanks you for informing us about the storm in your area. We will look into it right away and 
+            take the appropriate actions.
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyYear"></span> Your Exact Weather | Zachary V. Ashworth</p>
+        <p><span id="currentDate"></span></p>
+    </footer>
+    <script src="js/copydate.js"></script>
+    <script src="js/curdate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/severity.js"></script>
+</body>
+</html>

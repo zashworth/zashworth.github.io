@@ -1,0 +1,43 @@
+@media only screen and (min-width: 60em) {
+
+    /*--------------- HEADER ---------------*/
+    header img {
+        width: 120px;
+        height: auto;
+    }
+
+    /*--------------- NAV ---------------*/
+
+    /*--------------- MAIN: INDEX ---------------*/
+    main div.cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+
+    /*--------------- MAIN: PRESTON ---------------*/
+
+    /*--------------- MAIN: SODA SPRINGS ---------------*/
+
+    /*--------------- MAIN: FISH HAVEN ---------------*/
+
+    /*--------------- MAIN: STORM CENTER ---------------*/
+
+    /*--------------- MAIN: GALLERY ---------------*/
+    main div.picdiv picture {
+        border: 1px grey solid;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    main div.picdiv picture:hover {
+        box-shadow: 0 0 10px #333;
+    }
+    
+    main div.picdiv img {
+        border-radius: 10px 10px 0 0;
+    }
+    
+    main div.picdiv p {
+        display: block;
+        margin-left: 5px;
+        font-style: italic;
+    }
+}

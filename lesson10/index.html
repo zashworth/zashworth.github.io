@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <meta name="description" content="Your Exact Weather Home Page">
+    <link rel="shortcut icon" href="weatherfav.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="banner"></div>
+    <header>
+        <img src="images/weather-logo.png" alt="Weather logo, rain cloud with sun behind">
+        <section class="headings">
+            <h1>Your Exact Weather</h1>
+            <div class="motto">Our weather is exact!</div>
+        </section>
+        </header>
+        <script src="js/cards.js"></script>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <script src="js/togglemenu.js"></script>
+    <main>
+        <h2>Home</h2>
+        <div class="cards"></div>
+
+        <div class="events">
+            <table class="localevents">
+                <thead>
+                    <tr>
+                        <td colspan="2"><b>Local Events</b></td>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Event</th>
+                    </tr>
+                
+                <tbody>
+                    <tr>
+                        <td>Sunday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>National Celebrate Napolean Dynamite Day!</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="wireframe"><a href="https://app.moqups.com/lZAVo3oDcE/view">Wireframe</a> was built through moqups.com</div>
+    </main>
+
+    <footer>
+            <p>&copy; <span id="copyYear"></span> Your Exact Weather | Zachary V. Ashworth</p>
+            <p><span id="currentDate"></span></p>
+        </footer>
+        <script src="js/copydate.js"></script>
+        <script src="js/curdate.js"></script>
+        <script src="js/banner.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+    </html>
