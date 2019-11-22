@@ -36,7 +36,7 @@
     </nav>
     <script src="js/togglemenu.js"></script>
     <main>
-        <h2>Preston Idaho</h2>
+        <h2><span id="townName">Preston Idaho</span></h2>
         <div class="hero">
             <picture class="heroimage">
                 <img src="images/prestonimage240ppi.jpeg" alt="Preston Idaho" class="hero"
@@ -60,41 +60,26 @@
         </div>
         <div class="forecast">
             <table>
-                <tr>
+                <tr id="forecastheader">
                     <th>Sun</th>
                     <th>Mon</th>
                     <th>Tue</th>
                     <th>Wed</th>
                     <th>Thur</th>
                 </tr>
-                <tr>
-                    <td>
-                        <img src="" alt="">
-                        <p><span id="f1"></span> &#8457;</p>
-                    </td>
-                    <td>
-                        <img src="" alt="">
-                        <p> &#8457;</p>
-                    </td>
-                    <td>
-                        <img src="" alt="">
-                        <p> &#8457;</p>
-                    </td>
-                    <td>
-                        <img src="" alt="">
-                        <p> &#8457;</p>
-                    </td>
-                    <td>
-                        <img src="" alt="">
-                        <p> &#8457;</p>
-                    </td>
+                <tr id="forecastbody">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </div>
         <div class="article">
             <img src="images/picnic150.jpg" alt="picnic" id="picnic">
-            <h3 class="typearticle"></h3>
-            <h4 class="typearticle"></h4>
+            <h3 class="typearticle" id="blacktext">Preston City Picnic</h3>
+            <h4 class="typearticle">Susan Smith</h4>
             <p class="typearticle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet 
                 esse dicta sapiente enim cumque repudiandae, culpa, reiciendis quas assumenda, dolor est maxime 
                 necessitatibus ea dolore libero quasi dolores eos! Lorem, ipsum dolor sit amet consectetur 
@@ -131,7 +116,7 @@
         <p><span id="currentDate"></span></p>
         <p>Weather information provided by <a class="orangetext" href="https://openweathermap.org/">openweathermap.org</a></p>
     </footer>
-    
+    <script src="js/weatherapi.js"></script>
     <script src="js/copydate.js"></script>
     <script src="js/curdate.js"></script>
     <script src="js/banner.js"></script>

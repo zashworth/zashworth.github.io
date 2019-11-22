@@ -205,11 +205,11 @@ main div img.hero {
 
 main div.hero section.weathersummary {
     position: absolute;
-    top: 2rem;
-    left: 2rem;
-    background-color: aqua;
+    top: .25rem;
+    left: .25rem;
+    background-color: rgba(8, 180, 154, 0.59);
     border: 1px solid black;
-    padding: .5rem;
+    padding: .2rem;
 }
 
 .forecast {
@@ -222,7 +222,7 @@ main div.hero section.weathersummary {
     border: dashed black 1px;
     background-color: #D6F49D;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     max-width: 80%;
@@ -230,6 +230,7 @@ main div.hero section.weathersummary {
 
 .typearticle {
     order: 1;
+    text-align: center;
 }
 
 #picnic {
@@ -284,6 +285,10 @@ main div img.preston {
 
 .orangetext {
     color: orange;
+}
+
+#blacktext {
+    color: black;
 }
 
 /*--------------- MAIN: SODA SPRINGS ---------------*/

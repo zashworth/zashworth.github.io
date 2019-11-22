@@ -53,8 +53,25 @@
     }
 
     /*--------------- MAIN: PRESTON ---------------*/
+    main div.hero section.weathersummary {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        background-color: rgba(8, 180, 154, 0.59);
+        border: 1px solid black;
+        padding: .5rem;
+    }
+
     .forecast {
         display:block;
+    }
+
+    #forecastheader {
+        background-color: #3E6990;
+    }
+
+    #forecastbody {
+        background-color: #D6F49D;
     }
 
     .forecast table, th, td {
@@ -63,7 +80,7 @@
         padding: 6px;
         margin-right: auto;
         margin-left: auto;
-        margin-top: 20px;
+        margin-top: 30px;
         align-content: center;
     }
 
@@ -88,7 +105,10 @@
     .article {
         display: block;
         overflow: hidden;
-        padding: 2%;
+    }
+
+    .typearticle {
+        text-align: left;
     }
 
     #picnic {
