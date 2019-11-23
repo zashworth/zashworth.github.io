@@ -1,4 +1,4 @@
-let town = document.getElementById('townName').innerHTML;
+/*let town = document.getElementById('townName').innerHTML;
 let townID = "";
 if (town == "Preston Idaho") {
   townID = "5604473"
@@ -8,11 +8,11 @@ else if (town == "Soda Springs Idaho") {
 }
 else {
   townID = "5585010"
-}
+}*/
 
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=" + townID + "&APPID=9e98a4bbd0cee37a9ef56989d1966f90&units=imperial";
+const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&APPID=9e98a4bbd0cee37a9ef56989d1966f90&units=imperial";
 
-const forecastURL = "http://api.openweathermap.org/data/2.5/forecast?id=" + townID + "&APPID=9e98a4bbd0cee37a9ef56989d1966f90&units=imperial";
+const forecastURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=9e98a4bbd0cee37a9ef56989d1966f90&units=imperial";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -40,7 +40,7 @@ fetch(apiURL)
         let text = document.createElement('p');
         let icon = jsObject.list[i].weather[0].icon;
         let description = jsObject.list[i].weather[0].description;
-        text.innerHTML = jsObject.list[i].main.temp + " &#8457;";
+        text.innerHTML = Math.round(jsObject.list[i].main.temp) + " &#8457;";
         image.setAttribute('src', "https://openweathermap.org/img/wn/" + icon + ".png");
         image.setAttribute('alt', description);
         tableRow[t].appendChild(image);
