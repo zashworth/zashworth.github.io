@@ -1,3 +1,4 @@
+function weather() {
 let town = document.getElementById('townName').innerHTML;
 let townID = "";
 if (town == "Preston Idaho") {
@@ -53,3 +54,5 @@ fetch(apiURL)
       
     
   });
+}
+weather()
