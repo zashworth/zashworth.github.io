@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Haven Town Page</title>
+    <meta name="description" content="Fish Haven town page shows weather for Fish Haven, Idaho">
+    <link rel="shortcut icon" href="weatherfav.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="banner"></div>
+    <header>
+        <img src="images/weather-logo.png" alt="Weather logo, rain cloud with sun behind">
+        <section class="headings">
+            <h1>Your Exact Weather</h1>
+            <div class="motto">Our weather is exact!</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a class="active" href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <script src="js/togglemenu.js"></script>
+    <main>
+        <h2><span id="townName">Fish Haven Idaho</span></h2>
+        <div class="hero">
+            <picture class="heroimage">
+                <img src="images/prestonimage240ppi.jpeg" alt="Preston Idaho" class="hero"
+                    srcset="images/prestonimage200.jpeg 200w,
+                        images/prestonimage500.jpeg 500w,
+                        images/prestonimage800.jpeg 800w,
+                        images/prestonimage1100.jpeg 1100w">
+                
+            </picture>
+            <section class="weathersummary">
+                <h3 class="blacktext">Weather Summary</h3>
+                <ul>
+                    <li>Currently: <span id="currently"></span></li>
+                    <li>High: <span id="temp"></span> &#8457;</li>
+                    <li>Windchill: <span id="wind"></span></li>
+                    <li>Humidity: <span id="humid"></span></li>
+                    <li>Wind Speed: <span id="speed"></span> mph</li>
+                </ul>
+            </section>
+
+        </div>
+        <div class="forecast">
+            <table>
+                <tr id="forecastheader">
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thur</th>
+                </tr>
+                <tr id="forecastbody">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div class="article">
+            <img src="images/picnic150.jpg" alt="picnic" id="picnic">
+            <h3 class="typearticle" id="blacktext">Preston City Picnic</h3>
+            <h4 class="typearticle">Susan Smith</h4>
+            <p class="typearticle">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet 
+                esse dicta sapiente enim cumque repudiandae, culpa, reiciendis quas assumenda, dolor est maxime 
+                necessitatibus ea dolore libero quasi dolores eos! Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Excepturi amet esse dicta sapiente enim cumque repudiandae, culpa, reiciendis 
+                quas assumenda, dolor est maxime necessitatibus ea dolore libero quasi dolores eos! 
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+                <br>
+                Excepturi amet esse dicta sapiente enim cumque repudiandae, culpa, reiciendis quas assumenda, dolor est maxime 
+                necessitatibus ea dolore libero quasi dolores eos! Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Excepturi amet esse dicta sapiente enim cumque repudiandae, culpa, reiciendis 
+                quas assumenda, dolor est maxime necessitatibus ea dolore libero quasi dolores eos!  
+            </p>               
+        </div>
+        <div class="contact">
+            <div id="leftcol">
+                <img src="images/prestonmap.PNG" alt="map of Preston Idaho" class="preston">
+            </div>
+            <div id="rightcol">
+                <h3 class="blacktext">Contact Information</h3>
+                <p>Your Exact Weather<br>
+                    400 E Main St.<br>
+                    Preston, Idaho<br>
+                    <br>
+                    Tel: (208) 555-6689<br>
+                    Email: contact@yourexactweather.com<br>
+                </p>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="copyYear"></span> Your Exact Weather | Zachary V. Ashworth</p>
+        <p><span id="currentDate"></span></p>
+        <p>Weather information provided by <a class="orangetext" href="https://openweathermap.org/">openweathermap.org</a></p>
+    </footer>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/copydate.js"></script>
+    <script src="js/curdate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+</html>
