@@ -25,6 +25,19 @@ fetch(apiURL)
     document.getElementById('humid').textContent = jsObject.main.humidity;
     document.getElementById('speed').textContent = Math.round(jsObject.wind.speed);
 
+    if (jsObject.main.temp <= 50 && jsObject.wind.speed >= 3) {
+        
+      var a = 35.75 + (0.6215 * jsObject.main.temp);
+      var b = 35.75 * Math.pow(jsObject.wind.speed, 0.16);
+      var c = 0.4275 * jsObject.main.temp * Math.pow(jsObject.wind.speed, 0.16);
+      var d = a - b + c;
+
+      document.getElementById("wind").innerHTML = d.toFixed(0) + " &#8457;";
+  }
+  else {
+      document.getElementById("wind").innerHTML = "N/A" ;
+  }
+
   });
 
   fetch(forecastURL)
@@ -53,5 +66,7 @@ fetch(apiURL)
     }  
 
   });
+
+  
 }
 weather()
