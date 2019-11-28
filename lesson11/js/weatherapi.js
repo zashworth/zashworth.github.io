@@ -1,10 +1,10 @@
 function weather() {
 let town = document.getElementById('townName').innerHTML;
 let townID = "";
-if (town == "Preston Idaho") {
+if (town == "Preston") {
   townID = "5604473"
 }
-else if (town == "Soda Springs Idaho") {
+else if (town == "Soda") {
   townID = "5607916"
 }
 else {
@@ -50,9 +50,8 @@ fetch(apiURL)
 
         t++;
       }
-    }
-      
-    
+    }  
+
   });
 }
 weather()
