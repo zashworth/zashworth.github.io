@@ -47,5 +47,38 @@ fetch(requestURL)
 
   });
 
+  fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
 
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+
+    const towns = jsonObject['towns'];
+    const events = jsonObject['events'];
+  
+    for (let i = 0; i < towns.length; i++ ) {
+      if ( towns[i].name == 'Fish Haven' || towns[i].name == 'Preston' || towns[i].name == 'Soda Springs') { 
+
+        let article = document.createElement('article');
+        let name = document.createElement('h3');
+
+        name.textContent = towns[i].name
+        document.getElementById('events').appendChild(article);
+        document.getElementById('events').appendChild(name);
+        
+        for (let j = 0; j < 4; j++) {
+          let event = document.createElement('p');
+          event.textContent = towns[i].events[j];
+          document.getElementById('events').appendChild(event);
+        }
+        
+
+        
+        
+    }
+    }
+
+  });
 

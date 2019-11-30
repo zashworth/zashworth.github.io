@@ -131,47 +131,33 @@ main div.cards img {
     box-shadow: 0 0 15px black;
 }
 
-table, tr, td, th {
-    border: solid 1px lightsteelblue;
-    border-collapse: collapse;
-    padding: 15px;
-    margin: 20px auto;
-    font-family: 'Poppins', sans-serif;
-}
-
-th {
-    background-color: #3E6990;
-    color: white;
-    text-align: center;
-}
-
-thead {
+div.events {
     background-color: #D6F49D;
-    color: black;
-    font-size: 26px;
-}
-
-h3 {
-    color: white;
-}
-
-td {
+    border: solid 1px lightsteelblue;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
+    max-width: 800px;
+    margin: 15px auto 30px;
+    width: 50%;
+
 }
 
-tbody tr {
-    background-color: #e7f0ed;
+div.events article {
+    border: solid 1px #3E6990;
+    margin: 8px;
 }
 
-tbody tr:nth-child(even) {
-    background-color: #e7ffed;
+div.events h3 {
+    color: #3E6990;
+    text-align: left;
+    padding: 5px;
 }
 
-td {
-    padding: 15px;
+div.events p {
+    color: #605F5E;
 }
 
-table {
+div.events {
     box-shadow: 10px 10px 15px #3E6990;
 
 }
