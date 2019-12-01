@@ -8,7 +8,7 @@ for (j = 0; j <= tableHead.length + 1; j++) {
   let dayText = document.createElement('p');
   dayText.innerHTML = days[(d + r)];
   tableHead[j].appendChild(dayText);
-  if ((d + r) < 6) {
+  if ((d + r) < 7) {
     r++; 
   }
   else {
