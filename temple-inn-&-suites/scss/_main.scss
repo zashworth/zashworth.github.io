@@ -1,0 +1,44 @@
+nav {
+    background-color: #2E2C2F;
+
+ul {
+    list-style: none;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+} 
+
+li a {
+    display: block;
+	color: #fff;
+    text-align: center;
+    text-decoration: none;
+	padding: 10px;
+}
+
+a:hover {
+	background-color: #D6F49D;
+	color: #605F5E;
+}
+
+li a.active { 
+    background-color: #D6F49D;
+	color: #605F5E;
+}
+}
+/* Make the menu toggle on and off*/
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.responsive li {
+	display: block;
+}
+
+
