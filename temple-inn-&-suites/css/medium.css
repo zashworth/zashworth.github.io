@@ -1,0 +1,24 @@
+
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+.headings h1 {
+    font-size: 30pt;
+    margin: 0 0 0 17px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}

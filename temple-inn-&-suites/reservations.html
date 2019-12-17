@@ -40,6 +40,46 @@
         <h1>Reservations Page</h1>
         <p>This is the reservation page.</p>
     </div>
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Registrant Information</legend>
+            <label class="top">Full Name* <input type="text" name="fname" placeholder="John Doe" minlength="5" required></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Phone Number* <input type="tel" name="phone" placeholder="2087776655" required></label>
+            <label class="top">Home State or Country <input type="text" name="state" placeholder="Idaho / Chile"></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Stay & Inn Information</legend>
+            <label class="top">Start Date of Stay <input type="date" name="startdate"></label>
+            <label class="top">End Date of Stay <input type="date" name="startdate"></label>
+            <label class="top">Location of Stay <input type="list" name="location" list="locationlist"></label>
+                <datalist id="locationlist">
+                    <option value="Raleigh, North Carolina">
+                    <option value="Fort Luaderdale, Florida">
+                    <option value="Columbus, Ohio">
+                    <option value="Philadelphia, Pennsylvania">
+                    <option value="Hartford, Connecticut">
+                </datalist>
+
+            <label class="top">Number of Bedroom Suites Needed <input type="number" name="numrooms"></label>
+
+            <div>Types of Rooms Needed</div>
+            <label class="sbs"><input type="radio" name="danger" value="bedroomsuite"> Bedroom Suite</label>
+            <label class="sbs"><input type="radio" name="danger" value="kitchensuite"> Kitchenette Suite</label>
+            <label class="sbs"><input type="radio" name="danger" value="kitchen"> Kitchen</label>
+            <label class="sbs"><input type="radio" name="danger" value="bride"> Bride's Room</label>
+            <label class="sbs"><input type="radio" name="danger" value="groom"> Groom's Room</label>
+            <label class="sbs"><input type="radio" name="danger" value="reception"> Reception Hall</label>
+            <label class="sbs"><input type="radio" name="danger" value="playroom"> Playroom</label>
+
+            <label class="top">Special Accomodations or Comments</label>
+
+            <label><textarea name="comments" rows="6" cols="40"></textarea></label>
+        </fieldset>
+
+        <input type="submit" value="Make Reservation" class="submitbtn" >
+    </form>
     <footer>
         <p>&copy; 2019 | Temple Inn & Suites | 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
     </footer>

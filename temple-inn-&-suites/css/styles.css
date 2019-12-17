@@ -401,11 +401,16 @@ nav li a.active {
   display: block; }
 
 /* ---------- MAIN ---------- */
-.main {
+.maintemple {
+  display: flex;
   background-color: #FDFDFD;
   padding: 20px;
   margin: auto;
   color: #605F5E; }
+
+img.mainimg {
+  float: left;
+  max-width: 50%; }
 
 /* ---------- FOOTER ---------- */
 footer {
