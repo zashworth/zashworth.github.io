@@ -305,10 +305,7 @@ template {
 
 .main {
   display: block;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-right: auto;
-  margin-left: 5px;
+  margin: auto;
   max-width: 1000px;
   background-color: #FDFDFD; }
 
@@ -479,6 +476,11 @@ img.mainimg {
 .contact, .hours {
   list-style: none;
   padding: .3rem; }
+
+/* ---------- TEMPLES ---------- */
+.temples {
+  max-width: 1000px;
+  margin: auto; }
 
 /* ---------- RESERVATIONS ---------- */
 form {
