@@ -26,12 +26,13 @@ fetch(requestURL)
         let text5 = document.createElement('p');
         let image = document.createElement('img');
 
+        h2.textContent = temples[i].location;
+        text.appendChild(h2);
         image.setAttribute('src', 'images/' + temples[i].photo);
         image.setAttribute('alt', temples[i].location);
         card.appendChild(text);
         card.appendChild(image);
-        h2.textContent = temples[i].location;
-        text.appendChild(h2);
+        
 
         for (let j = 0; j < 2; j++) {
           let h5 = document.createElement('h5');

@@ -482,6 +482,15 @@ img.mainimg {
   max-width: 1000px;
   margin: auto; }
 
+.temples article {
+  border: solid #605F5E 1px;
+  padding: 10px;
+  margin: 15px; }
+
+.temples img {
+  max-width: 80%;
+  max-height: 500px; }
+
 /* ---------- RESERVATIONS ---------- */
 form {
   max-width: 1000px; }
