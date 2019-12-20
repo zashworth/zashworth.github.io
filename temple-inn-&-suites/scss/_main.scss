@@ -201,7 +201,6 @@ img.mainimg {
 }
 
 .contactimg {
-    
     border: solid #605F5E 1px;
     width: 70%;
 }
@@ -294,6 +293,46 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: green solid 6px;
+}
+
+
+/* ---------- SERVICES ---------- */
+.services {
+    display: flex;
+    max-width: 1000px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rightcolumn {
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.services img.leftcolumn {
+    float: left;
+    width: 50%;
+}
+
+.services img.swimming {
+    float: right;
+    width: 50%;
+}
+
+
+/* ---------- CONTACT ---------- */
+.contactus {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.contactusimg {
+    padding: 20px;
 }
 
 
