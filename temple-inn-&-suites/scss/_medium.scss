@@ -1,3 +1,11 @@
+header {
+    background-color: #FDFDFD;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header img {
     width: 100px;
     height: auto;
@@ -20,3 +28,143 @@ header img {
     display: block;
     flex: 1 1 100%;
 }
+
+.maintemple {
+    display: flex;
+    max-width: 1000px;
+    border: solid #605F5E 1px;
+    background-color: #FDFDFD;
+    margin: 20px auto;
+    color: #605F5E;
+    text-align: center;
+}
+
+.leftcol {
+    max-width: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.rightcol {
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+img.mainimg {
+    float: left;
+    max-width: 100%;
+}
+
+.reservationcta {
+    max-width: 1000px;
+    border: solid #605F5E 1px;
+    background-color: #D2C5B4;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.reservationcta h3 {
+    color: black;
+}
+
+.submitbtn {
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+    width: 50%;
+}
+
+.maincontact {
+    display: flex;
+    max-width: 1000px;
+    border: solid #605F5E 1px;
+    margin: 20px auto;
+}
+
+.contactinfo {
+    list-style: none;
+    background-color: #FDFDFD;
+    color: $bodyColor;
+    padding: .5rem;
+    margin: auto;
+}
+
+.contactimg {
+    border: solid #605F5E 1px;
+    width: 70%;
+}
+
+.contact, .hours {
+    list-style: none;
+    padding: .3rem;
+}
+
+/* ---------- SERVICES ---------- */
+.services {
+    display: flex;
+    max-width: 1000px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rightcolumn {
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.services img.leftcolumn {
+    float: left;
+    width: 50%;
+}
+
+.services img.swimming {
+    float: right;
+    width: 50%;
+}
+
+/* ---------- RECEPTION ---------- */
+.reception {
+    display: flex;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.reception img {
+    float: right;
+    width: 50%;
+}
+
+
+/* ---------- FULL-TIME ---------- */
+.missionary {
+    display: flex;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.missionary img {
+    float: right;
+    width: 70%;
+}
+

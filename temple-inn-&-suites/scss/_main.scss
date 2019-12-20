@@ -3,6 +3,7 @@
     margin: auto;
     max-width: 1000px;
     background-color: #FDFDFD;
+    
 }
 
 .main p {
@@ -25,14 +26,14 @@ p, nav, .motto {
 
 header {
     background-color: #FDFDFD;
-    padding: 25px 0;
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 header img {
-    width: 80px;
+    width: 60px;
     height: auto;
 }
 
@@ -42,14 +43,14 @@ header img {
 }
 
 .headings h1 {
-    font-size: 20pt;
-    margin: 0 0 0 17px;
+    font-size: 14pt;
+    margin: 0 0 0 5px;
     color: #CABA98;
 }
 
 .motto {
-    font-size: 12pt;
-    margin: 0 0 0 21px;
+    font-size: 8pt;
+    margin: 0 0 0 5px;
     color: #605F5E;  
 }    
 
@@ -132,8 +133,8 @@ nav li a.active {
 /* ---------- MAIN ---------- */
 
 .maintemple {
-    display: flex;
-    max-width: 1000px;
+    display: block;
+    max-width: 80%;
     border: solid #605F5E 1px;
     background-color: #FDFDFD;
     margin: 20px auto;
@@ -160,7 +161,7 @@ nav li a.active {
 }
 
 img.mainimg {
-    float: left;
+    
     max-width: 100%;
 }
 
@@ -175,6 +176,7 @@ img.mainimg {
 
 .reservationcta h3 {
     color: black;
+    font-size: 10px;
 }
 
 .submitbtn {
@@ -186,7 +188,7 @@ img.mainimg {
 }
 
 .maincontact {
-    display: flex;
+    display: block;
     max-width: 1000px;
     border: solid #605F5E 1px;
     margin: 20px auto;
@@ -298,7 +300,7 @@ form label.top input:required:valid {
 
 /* ---------- SERVICES ---------- */
 .services {
-    display: flex;
+    display: block;
     max-width: 1000px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -314,15 +316,47 @@ form label.top input:required:valid {
 }
 
 .services img.leftcolumn {
-    float: left;
-    width: 50%;
+    
+    width: 80%;
 }
 
 .services img.swimming {
-    float: right;
-    width: 50%;
+    
+    width: 80%;
 }
 
+/* ---------- RECEPTION ---------- */
+.reception {
+    display: block;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.reception img {
+    
+    width: 80%;
+}
+
+
+/* ---------- FULL-TIME ---------- */
+.missionary {
+    display: block;
+    max-width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.missionary img {
+    
+    width: 80%;
+}
 
 /* ---------- CONTACT ---------- */
 .contactus {
@@ -333,6 +367,7 @@ form label.top input:required:valid {
 
 .contactusimg {
     padding: 20px;
+    max-width: 80%;
 }
 
 

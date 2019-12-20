@@ -325,13 +325,13 @@ p, nav, .motto {
 
 header {
   background-color: #FDFDFD;
-  padding: 25px 0;
+  padding: 5px 0;
   display: flex;
   align-items: center;
   justify-content: center; }
 
 header img {
-  width: 80px;
+  width: 60px;
   height: auto; }
 
 .headings {
@@ -339,13 +339,13 @@ header img {
   flex-direction: column; }
 
 .headings h1 {
-  font-size: 20pt;
-  margin: 0 0 0 17px;
+  font-size: 14pt;
+  margin: 0 0 0 5px;
   color: #CABA98; }
 
 .motto {
-  font-size: 12pt;
-  margin: 0 0 0 21px;
+  font-size: 8pt;
+  margin: 0 0 0 5px;
   color: #605F5E; }
 
 .navmenu {
@@ -410,8 +410,8 @@ nav li a.active {
 
 /* ---------- MAIN ---------- */
 .maintemple {
-  display: flex;
-  max-width: 1000px;
+  display: block;
+  max-width: 80%;
   border: solid #605F5E 1px;
   background-color: #FDFDFD;
   margin: 20px auto;
@@ -435,7 +435,6 @@ nav li a.active {
   text-align: center; }
 
 img.mainimg {
-  float: left;
   max-width: 100%; }
 
 .reservationcta {
@@ -447,7 +446,8 @@ img.mainimg {
   text-align: center; }
 
 .reservationcta h3 {
-  color: black; }
+  color: black;
+  font-size: 10px; }
 
 .submitbtn {
   background-color: orangered;
@@ -457,7 +457,7 @@ img.mainimg {
   width: 50%; }
 
 .maincontact {
-  display: flex;
+  display: block;
   max-width: 1000px;
   border: solid #605F5E 1px;
   margin: 20px auto; }
@@ -547,7 +547,7 @@ form label.top input:required:valid {
 
 /* ---------- SERVICES ---------- */
 .services {
-  display: flex;
+  display: block;
   max-width: 1000px;
   margin-top: 15px;
   margin-bottom: 15px; }
@@ -561,12 +561,34 @@ form label.top input:required:valid {
   margin-bottom: auto; }
 
 .services img.leftcolumn {
-  float: left;
-  width: 50%; }
+  width: 80%; }
 
 .services img.swimming {
-  float: right;
-  width: 50%; }
+  width: 80%; }
+
+/* ---------- RECEPTION ---------- */
+.reception {
+  display: block;
+  max-width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.reception img {
+  width: 80%; }
+
+/* ---------- FULL-TIME ---------- */
+.missionary {
+  display: block;
+  max-width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.missionary img {
+  width: 80%; }
 
 /* ---------- CONTACT ---------- */
 .contactus {
@@ -575,7 +597,8 @@ form label.top input:required:valid {
   padding: 20px; }
 
 .contactusimg {
-  padding: 20px; }
+  padding: 20px;
+  max-width: 80%; }
 
 /* ---------- FOOTER ---------- */
 footer {
@@ -591,6 +614,13 @@ footer p {
   margin: 0; }
 
 @media only screen and (min-width: 37.5em) {
+  header {
+    background-color: #FDFDFD;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
   header img {
     width: 100px;
     height: auto; }
@@ -607,7 +637,124 @@ footer p {
 
   .navigation li {
     display: block;
-    flex: 1 1 100%; } }
+    flex: 1 1 100%; }
+
+  .maintemple {
+    display: flex;
+    max-width: 1000px;
+    border: solid #605F5E 1px;
+    background-color: #FDFDFD;
+    margin: 20px auto;
+    color: #605F5E;
+    text-align: center; }
+
+  .leftcol {
+    max-width: 50%;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center; }
+
+  .rightcol {
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center; }
+
+  img.mainimg {
+    float: left;
+    max-width: 100%; }
+
+  .reservationcta {
+    max-width: 1000px;
+    border: solid #605F5E 1px;
+    background-color: #D2C5B4;
+    margin: auto;
+    padding-top: 15px;
+    text-align: center; }
+
+  .reservationcta h3 {
+    color: black; }
+
+  .submitbtn {
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+    width: 50%; }
+
+  .maincontact {
+    display: flex;
+    max-width: 1000px;
+    border: solid #605F5E 1px;
+    margin: 20px auto; }
+
+  .contactinfo {
+    list-style: none;
+    background-color: #FDFDFD;
+    color: #605F5E;
+    padding: .5rem;
+    margin: auto; }
+
+  .contactimg {
+    border: solid #605F5E 1px;
+    width: 70%; }
+
+  .contact, .hours {
+    list-style: none;
+    padding: .3rem; }
+
+  /* ---------- SERVICES ---------- */
+  .services {
+    display: flex;
+    max-width: 1000px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  .rightcolumn {
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto; }
+
+  .services img.leftcolumn {
+    float: left;
+    width: 50%; }
+
+  .services img.swimming {
+    float: right;
+    width: 50%; }
+
+  /* ---------- RECEPTION ---------- */
+  .reception {
+    display: flex;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .reception img {
+    float: right;
+    width: 50%; }
+
+  /* ---------- FULL-TIME ---------- */
+  .missionary {
+    display: flex;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .missionary img {
+    float: right;
+    width: 70%; } }
 @media only screen and (min-width: 60em) {
   header img {
     width: 120px;
