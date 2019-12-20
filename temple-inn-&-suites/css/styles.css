@@ -303,13 +303,24 @@ template {
 [hidden] {
   display: none; }
 
-main {
+.main {
   display: block;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: 5px;
   max-width: 1000px;
   background-color: #FDFDFD; }
 
+.main p {
+  color: #605F5E; }
+
 h1 {
+  font-family: "Courgette", cursive;
+  color: #CABA98; }
+
+h2, h3 {
+  color: #CABA98;
   font-family: "Courgette", cursive; }
 
 p, nav, .motto {
@@ -353,10 +364,10 @@ nav {
   max-width: 1000px;
   justify-content: center; }
 
-ul {
+.navigation {
   list-style: none; }
 
-ul li {
+ul.navigation li {
   width: 200px;
   background-color: #D0A77D;
   float: left;
@@ -364,26 +375,26 @@ ul li {
   line-height: 35px;
   text-align: center; }
 
-ul li:hover {
+ul.navigation li:hover {
   background-color: #D7C6AE;
   color: #605F5E; }
 
-ul li a {
+ul.navigation li a {
   color: #FDFDFD;
   text-decoration: none;
   font-family: "Comfortaa", cursive;
   display: block; }
 
-ul li a:hover {
+ul.navigation li a:hover {
   color: #605F5E; }
 
-ul li ul li {
+ul.navigation li ul li {
   border-top: 1px solid #FDFDFD; }
 
-ul li ul {
+ul.navigation li ul {
   display: none; }
 
-ul li:hover ul {
+ul.navigation li:hover ul {
   display: block; }
 
 nav li a.active {
@@ -403,14 +414,125 @@ nav li a.active {
 /* ---------- MAIN ---------- */
 .maintemple {
   display: flex;
+  max-width: 1000px;
+  border: solid #605F5E 1px;
   background-color: #FDFDFD;
-  padding: 20px;
-  margin: auto;
-  color: #605F5E; }
+  margin: 20px auto;
+  color: #605F5E;
+  text-align: center; }
+
+.leftcol {
+  max-width: 50%;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center; }
+
+.rightcol {
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center; }
 
 img.mainimg {
   float: left;
-  max-width: 50%; }
+  max-width: 100%; }
+
+.reservationcta {
+  max-width: 1000px;
+  border: solid #605F5E 1px;
+  background-color: #D2C5B4;
+  margin: auto;
+  padding-top: 15px;
+  text-align: center; }
+
+.reservationcta h3 {
+  color: black; }
+
+.submitbtn {
+  background-color: orangered;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  width: 50%; }
+
+.maincontact {
+  display: flex;
+  max-width: 1000px;
+  border: solid #605F5E 1px;
+  margin: 20px auto; }
+
+.contactinfo {
+  list-style: none;
+  background-color: #FDFDFD;
+  color: #605F5E;
+  padding: .5rem;
+  margin: auto; }
+
+.contactimg {
+  border: solid #605F5E 1px;
+  width: 70%; }
+
+.contact, .hours {
+  list-style: none;
+  padding: .3rem; }
+
+/* ---------- RESERVATIONS ---------- */
+form {
+  max-width: 1000px; }
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #D0A77D;
+  border-radius: 10px;
+  padding: .5rem 2%; }
+
+form legend {
+  color: #D0A77D;
+  margin: 0 1rem;
+  padding: 0 .5rem; }
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: #D0A77D;
+  font-size: .8rem; }
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #605F5E;
+  border-radius: 4px;
+  padding: .75rem;
+  color: #605F5E;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #D7C6AE; }
+
+form label.sbs {
+  display: block;
+  padding: .75rem;
+  color: #605F5E;
+  font-size: .8rem; }
+
+form input.submitbtn {
+  background-color: orangered;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  max-width: 20rem; }
+
+form label.top input:required {
+  border-left: red solid 6px; }
+
+form label.top input:required:valid {
+  border-left: green solid 6px; }
 
 /* ---------- FOOTER ---------- */
 footer {
